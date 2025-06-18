@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  transition: all 0.5s ease;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Центрированная картинка */
+.main-image {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 80%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Кнопки */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Главная страница — яркая */
+body.home {
+  background-color: #fef6e4;
+  color: #333;
+}
+
+body.home h2 {
+  color: #d62728;
+}
+
+body.home button {
+  background-color: #ff4c4c;
+  color: white;
+}
+
+body.home button:hover {
+  background-color: #ff7777;
+  color: white;
+}
+
+/* Supreme — красно-белый */
+body.supreme {
+  background-color: #b80000;
+  color: white;
+}
+
+body.supreme h2 {
+  color: white;
+}
+
+body.supreme button {
+  background-color: white;
+  color: #b80000;
+}
+
+body.supreme button:hover {
+  background-color: #ff9999;
+  color: black;
+}
+
+/* Gucci — зелёно-чёрный */
+body.gucci {
+  background-color: #0b3d0b;
+  color: #f5f5f5;
+}
+
+body.gucci h2 {
+  color: #a6ff00;
+}
+
+body.gucci button {
+  background-color: black;
+  color: #a6ff00;
+}
+
+body.gucci button:hover {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+/* Louis Vuitton — коричневый */
+body.lv {
+  background-color: #4a2c2a;
+  color: #f5deb3;
+}
+
+body.lv h2 {
+  color: #f5deb3;
+}
+
+body.lv button {
+  background-color: #a67c52;
+  color: white;
+}
+
+body.lv button:hover {
+  background-color: #d2b48c;
+  color: black;
+}
